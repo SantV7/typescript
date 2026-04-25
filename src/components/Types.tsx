@@ -4,7 +4,14 @@ const Types = () => {
     const taxJuros: number = 4.3
     const [text] = useState<string>('')
     const folga: boolean = true
+    let testVoid: void 
 
+    if(testVoid != undefined) {
+      console.log('Test ok')
+    }
+    else {
+      return console.log('Test completed')
+    }
 
   return (
     <>
