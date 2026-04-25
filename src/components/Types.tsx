@@ -4,14 +4,22 @@ const Types = () => {
     const taxJuros: number = 4.3
     const [text] = useState<string>('')
     const folga: boolean = true
-    let testVoid: void 
+    const statusCode: boolean = false
 
-    if(testVoid != undefined) {
-      console.log('Test ok')
-    }
-    else {
-      return console.log('Test completed')
-    }
+    const valorResult: null = null
+
+    const [testNew] = useState<any>([
+      {id: 1, msg1: 'Hello Word'}, 
+      {id: 1, msg2: 'Hello future'}
+    ])
+
+    console.log(valorResult) 
+    console.log(testNew)
+    console.log(statusCode)
+
+
+
+
 
   return (
     <>
