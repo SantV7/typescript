@@ -19,14 +19,12 @@ const Types = () => {
 
 
 
-
-
   return (
     <>
-    <h1>Testando alguns tipos</h1>
-    <p>valor da taxa: {taxJuros > 0 ? taxJuros : 'nenhuma'}</p>
+      <h1>Testando alguns tipos</h1>
+      <p>valor da taxa: {taxJuros > 0 ? taxJuros : 'nenhuma'}</p>
 
-    <p>{folga === true ? 'Teremos folga' : 'trabahhar q nem escravo'}</p>
+      <p>{ folga === true ? 'Teremos folga' : 'trabahhar q nem escravo' }</p>
     
 
     <p>{text}</p>
