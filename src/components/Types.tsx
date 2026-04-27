@@ -6,6 +6,8 @@ const Types = () => {
     const folga: boolean = true
     const statusCode: boolean = false
 
+    let idade:number = 18
+
     const valorResult: null = null
 
     const [testNew] = useState<any>([
@@ -16,6 +18,11 @@ const Types = () => {
     console.log(valorResult) 
     console.log(testNew)
     console.log(statusCode)
+    if(idade >= 18) {
+      console.log('Aquele garoto já virou um adulto...')
+    } else {
+      console.log('Deve estar vivendo a melhor fase da sua vida, a mais feliz, mas vc só vai notar isso quando acabar - Vy')
+    }
 
 
 
